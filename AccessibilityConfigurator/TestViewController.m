@@ -1,25 +1,27 @@
 //
-//  SecondViewController.m
+//  FirstViewController.m
 //  AccessibilityConfigurator
 //
 //  Created by Claes Lilliesköld on 2013-05-14.
 //  Copyright (c) 2013 Claes Lilliesköld. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "TestViewController.h"
 
-@interface SecondViewController ()
+@interface TestViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *redSquareView;
 
 @end
 
-@implementation SecondViewController
+@implementation TestViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.title = NSLocalizedString(@"TestViewController", @"Controllers");
+        self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
 }
@@ -27,7 +29,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.testView = self.redSquareView;
 }
 
 - (void)didReceiveMemoryWarning

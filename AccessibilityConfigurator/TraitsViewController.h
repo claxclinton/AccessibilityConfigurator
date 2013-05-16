@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TraitsTableViewCell.h"
 
-@interface SecondViewController : UIViewController
+@interface TraitsViewController : UIViewController
+<UITableViewDataSource,
+UITableViewDelegate,
+TraitTableViewCellDelegateProtocol>
+
+@property (weak) UIView *testView;
 
 @end

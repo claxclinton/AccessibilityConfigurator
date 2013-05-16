@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TestViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
 @end

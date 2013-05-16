@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B337C8B1742C88500453309 /* TraitsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B337C8A1742C88500453309 /* TraitsTableViewCell.m */; };
+		4B5F9C1F17457EC40043CD2B /* AccessibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */; };
+		4B5F9C2017457EC40043CD2B /* AccessibilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */; };
 		4B88B4791742C510003ADBDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B4781742C510003ADBDB /* UIKit.framework */; };
 		4B88B47B1742C510003ADBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B47A1742C510003ADBDB /* Foundation.framework */; };
 		4B88B47D1742C510003ADBDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B47C1742C510003ADBDB /* CoreGraphics.framework */; };
@@ -16,17 +19,23 @@
 		4B88B48B1742C510003ADBDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B48A1742C510003ADBDB /* Default.png */; };
 		4B88B48D1742C510003ADBDB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B48C1742C510003ADBDB /* Default@2x.png */; };
 		4B88B48F1742C510003ADBDB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B48E1742C510003ADBDB /* Default-568h@2x.png */; };
-		4B88B4921742C510003ADBDB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4911742C510003ADBDB /* FirstViewController.m */; };
+		4B88B4921742C510003ADBDB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4911742C510003ADBDB /* TestViewController.m */; };
 		4B88B4941742C510003ADBDB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4931742C510003ADBDB /* first.png */; };
 		4B88B4961742C510003ADBDB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4951742C510003ADBDB /* first@2x.png */; };
-		4B88B4991742C510003ADBDB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4981742C510003ADBDB /* SecondViewController.m */; };
+		4B88B4991742C510003ADBDB /* TraitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4981742C510003ADBDB /* TraitsViewController.m */; };
 		4B88B49B1742C510003ADBDB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49A1742C510003ADBDB /* second.png */; };
 		4B88B49D1742C510003ADBDB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49C1742C510003ADBDB /* second@2x.png */; };
-		4B88B4A01742C510003ADBDB /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49E1742C510003ADBDB /* FirstViewController.xib */; };
-		4B88B4A31742C510003ADBDB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4A11742C510003ADBDB /* SecondViewController.xib */; };
+		4B88B4A01742C510003ADBDB /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49E1742C510003ADBDB /* TestViewController.xib */; };
+		4B88B4A31742C510003ADBDB /* TraitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4A11742C510003ADBDB /* TraitsViewController.xib */; };
+		4B8AC9D01742D23E006DDB9E /* TraitTableViewCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B337C891742C88500453309 /* TraitsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitsTableViewCell.h; sourceTree = "<group>"; };
+		4B337C8A1742C88500453309 /* TraitsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitsTableViewCell.m; sourceTree = "<group>"; };
+		4B5F9C1C17457EC40043CD2B /* AccessibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityViewController.h; sourceTree = "<group>"; };
+		4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityViewController.m; sourceTree = "<group>"; };
+		4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessibilityViewController.xib; sourceTree = "<group>"; };
 		4B88B4751742C510003ADBDB /* AccessibilityConfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityConfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B88B4781742C510003ADBDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B88B47A1742C510003ADBDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +49,17 @@
 		4B88B48A1742C510003ADBDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4B88B48C1742C510003ADBDB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4B88B48E1742C510003ADBDB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4B88B4901742C510003ADBDB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		4B88B4911742C510003ADBDB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4B88B4901742C510003ADBDB /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4B88B4911742C510003ADBDB /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4B88B4931742C510003ADBDB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		4B88B4951742C510003ADBDB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		4B88B4971742C510003ADBDB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		4B88B4981742C510003ADBDB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4B88B4971742C510003ADBDB /* TraitsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraitsViewController.h; sourceTree = "<group>"; };
+		4B88B4981742C510003ADBDB /* TraitsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraitsViewController.m; sourceTree = "<group>"; };
 		4B88B49A1742C510003ADBDB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		4B88B49C1742C510003ADBDB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		4B88B49F1742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		4B88B4A21742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		4B88B49F1742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
+		4B88B4A21742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TraitsViewController.xib; sourceTree = "<group>"; };
+		4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraitTableViewCellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,16 +108,22 @@
 			children = (
 				4B88B4871742C510003ADBDB /* AppDelegate.h */,
 				4B88B4881742C510003ADBDB /* AppDelegate.m */,
-				4B88B4901742C510003ADBDB /* FirstViewController.h */,
-				4B88B4911742C510003ADBDB /* FirstViewController.m */,
+				4B88B4901742C510003ADBDB /* TestViewController.h */,
+				4B88B4911742C510003ADBDB /* TestViewController.m */,
+				4B88B49E1742C510003ADBDB /* TestViewController.xib */,
 				4B88B4931742C510003ADBDB /* first.png */,
 				4B88B4951742C510003ADBDB /* first@2x.png */,
-				4B88B4971742C510003ADBDB /* SecondViewController.h */,
-				4B88B4981742C510003ADBDB /* SecondViewController.m */,
+				4B88B4971742C510003ADBDB /* TraitsViewController.h */,
+				4B88B4981742C510003ADBDB /* TraitsViewController.m */,
+				4B88B4A11742C510003ADBDB /* TraitsViewController.xib */,
+				4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */,
+				4B337C891742C88500453309 /* TraitsTableViewCell.h */,
+				4B337C8A1742C88500453309 /* TraitsTableViewCell.m */,
+				4B5F9C1C17457EC40043CD2B /* AccessibilityViewController.h */,
+				4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */,
+				4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */,
 				4B88B49A1742C510003ADBDB /* second.png */,
 				4B88B49C1742C510003ADBDB /* second@2x.png */,
-				4B88B49E1742C510003ADBDB /* FirstViewController.xib */,
-				4B88B4A11742C510003ADBDB /* SecondViewController.xib */,
 				4B88B47F1742C510003ADBDB /* Supporting Files */,
 			);
 			path = AccessibilityConfigurator;
@@ -186,8 +202,10 @@
 				4B88B4961742C510003ADBDB /* first@2x.png in Resources */,
 				4B88B49B1742C510003ADBDB /* second.png in Resources */,
 				4B88B49D1742C510003ADBDB /* second@2x.png in Resources */,
-				4B88B4A01742C510003ADBDB /* FirstViewController.xib in Resources */,
-				4B88B4A31742C510003ADBDB /* SecondViewController.xib in Resources */,
+				4B88B4A01742C510003ADBDB /* TestViewController.xib in Resources */,
+				4B88B4A31742C510003ADBDB /* TraitsViewController.xib in Resources */,
+				4B8AC9D01742D23E006DDB9E /* TraitTableViewCellView.xib in Resources */,
+				4B5F9C2017457EC40043CD2B /* AccessibilityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +218,10 @@
 			files = (
 				4B88B4851742C510003ADBDB /* main.m in Sources */,
 				4B88B4891742C510003ADBDB /* AppDelegate.m in Sources */,
-				4B88B4921742C510003ADBDB /* FirstViewController.m in Sources */,
-				4B88B4991742C510003ADBDB /* SecondViewController.m in Sources */,
+				4B88B4921742C510003ADBDB /* TestViewController.m in Sources */,
+				4B88B4991742C510003ADBDB /* TraitsViewController.m in Sources */,
+				4B337C8B1742C88500453309 /* TraitsTableViewCell.m in Sources */,
+				4B5F9C1F17457EC40043CD2B /* AccessibilityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,20 +236,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4B88B49E1742C510003ADBDB /* FirstViewController.xib */ = {
+		4B88B49E1742C510003ADBDB /* TestViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B88B49F1742C510003ADBDB /* en */,
 			);
-			name = FirstViewController.xib;
+			name = TestViewController.xib;
 			sourceTree = "<group>";
 		};
-		4B88B4A11742C510003ADBDB /* SecondViewController.xib */ = {
+		4B88B4A11742C510003ADBDB /* TraitsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B88B4A21742C510003ADBDB /* en */,
 			);
-			name = SecondViewController.xib;
+			name = TraitsViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -332,6 +352,7 @@
 				4B88B4A81742C510003ADBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

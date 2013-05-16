@@ -7,23 +7,43 @@
 //
 
 #import "AppDelegate.h"
+#import "TestViewController.h"
+#import "AccessibilityViewController.h"
+#import "TraitsViewController.h"
 
-#import "FirstViewController.h"
+@interface AppDelegate ()
 
-#import "SecondViewController.h"
+@property (strong) TestViewController *testViewController;
+@property (strong) AccessibilityViewController *accessibilityViewController;
+@property (strong) TraitsViewController *traitsViewController;
+
+@end
 
 @implementation AppDelegate
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object
+                        change:(NSDictionary *)change context:(void *)context
+{
+    if ([keyPath isEqualToString:@"testView"]) {
+        self.accessibilityViewController.testView = self.testViewController.testView;
+        self.traitsViewController.testView = self.testViewController.testView;
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    self.testViewController = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+    self.traitsViewController = [[TraitsViewController alloc] initWithNibName:@"TraitsViewController" bundle:nil];
+    self.traitsViewController.testView = self.testViewController.testView;
+    self.accessibilityViewController = [[AccessibilityViewController alloc] initWithNibName:@"AccessibilityViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[self.testViewController, self.accessibilityViewController, self.traitsViewController];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    [self.testViewController addObserver:self forKeyPath:@"testView"
+                                 options:(NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew) context:nil];
     return YES;
 }
 
@@ -41,6 +61,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
