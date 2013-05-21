@@ -10,6 +10,7 @@
 		4B337C8B1742C88500453309 /* TraitsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B337C8A1742C88500453309 /* TraitsTableViewCell.m */; };
 		4B5F9C1F17457EC40043CD2B /* AccessibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */; };
 		4B5F9C2017457EC40043CD2B /* AccessibilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */; };
+		4B7C493E174C02AD00F34661 /* TestContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C493D174C02AD00F34661 /* TestContainerView.m */; };
 		4B88B4791742C510003ADBDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B4781742C510003ADBDB /* UIKit.framework */; };
 		4B88B47B1742C510003ADBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B47A1742C510003ADBDB /* Foundation.framework */; };
 		4B88B47D1742C510003ADBDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B88B47C1742C510003ADBDB /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 		4B5F9C1C17457EC40043CD2B /* AccessibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessibilityViewController.h; sourceTree = "<group>"; };
 		4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityViewController.m; sourceTree = "<group>"; };
 		4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessibilityViewController.xib; sourceTree = "<group>"; };
+		4B7C493C174C02AD00F34661 /* TestContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestContainerView.h; sourceTree = "<group>"; };
+		4B7C493D174C02AD00F34661 /* TestContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestContainerView.m; sourceTree = "<group>"; };
 		4B88B4751742C510003ADBDB /* AccessibilityConfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityConfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B88B4781742C510003ADBDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B88B47A1742C510003ADBDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,6 +114,8 @@
 				4B88B4901742C510003ADBDB /* TestViewController.h */,
 				4B88B4911742C510003ADBDB /* TestViewController.m */,
 				4B88B49E1742C510003ADBDB /* TestViewController.xib */,
+				4B7C493C174C02AD00F34661 /* TestContainerView.h */,
+				4B7C493D174C02AD00F34661 /* TestContainerView.m */,
 				4B88B4931742C510003ADBDB /* first.png */,
 				4B88B4951742C510003ADBDB /* first@2x.png */,
 				4B88B4971742C510003ADBDB /* TraitsViewController.h */,
@@ -222,6 +227,7 @@
 				4B88B4991742C510003ADBDB /* TraitsViewController.m in Sources */,
 				4B337C8B1742C88500453309 /* TraitsTableViewCell.m in Sources */,
 				4B5F9C1F17457EC40043CD2B /* AccessibilityViewController.m in Sources */,
+				4B7C493E174C02AD00F34661 /* TestContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

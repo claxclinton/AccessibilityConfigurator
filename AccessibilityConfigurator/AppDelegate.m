@@ -35,9 +35,15 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.testViewController = [[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+    self.testViewController.title = @"Test";
+    
+    self.accessibilityViewController = [[AccessibilityViewController alloc] initWithNibName:@"AccessibilityViewController" bundle:nil];
+    self.accessibilityViewController.title = @"Accessibility";
+
     self.traitsViewController = [[TraitsViewController alloc] initWithNibName:@"TraitsViewController" bundle:nil];
     self.traitsViewController.testView = self.testViewController.testView;
-    self.accessibilityViewController = [[AccessibilityViewController alloc] initWithNibName:@"AccessibilityViewController" bundle:nil];
+    self.traitsViewController.title = @"Traits";
+    
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[self.testViewController, self.accessibilityViewController, self.traitsViewController];
     self.window.rootViewController = self.tabBarController;

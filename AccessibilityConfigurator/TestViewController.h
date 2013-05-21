@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestContainerView.h"
 
-@interface TestViewController : UIViewController
+@interface TestViewController : UIViewController <TestContainerViewDelegateProtocol>
 
 @property (weak, nonatomic) IBOutlet UIView *testView;
 

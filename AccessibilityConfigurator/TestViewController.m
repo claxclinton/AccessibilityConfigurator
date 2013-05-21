@@ -29,6 +29,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    TestContainerView *testView = (TestContainerView *)self.view;
+    testView.delegate = self;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -41,6 +43,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)testContainerView:(TestContainerView *)testContainerView changedToTestView:(UIView *)testView
+{
+    self.testView = testView;
 }
 
 @end

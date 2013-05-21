@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *elementSwitch;
 @property (weak, nonatomic) IBOutlet UITextField *labelTextField;
 @property (weak, nonatomic) IBOutlet UITextField *hintTextField;
+@property (weak, nonatomic) IBOutlet UISwitch *modalViewSwitch;
 
 @end
 
@@ -30,7 +31,7 @@
 }
 
 - (void)viewDidLoad
-{
+{   
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
@@ -49,6 +50,13 @@
 - (IBAction)accessibilityElementChanged:(id)sender
 {
     self.testView.isAccessibilityElement = self.elementSwitch.on;
+    UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);
+}
+
+- (IBAction)modalViewPropertyChanged:(id)sender
+{
+    self.testView.accessibilityViewIsModal = self.modalViewSwitch.on;
+    UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -64,17 +72,26 @@
     } else if (textField == self.hintTextField) {
         self.testView.accessibilityHint = textField.text;
     }
+    UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);
 }
 
-- (UIView *)testView {
+- (void)updateAccessibilitySettingsFromTestView
+{
+    self.elementSwitch.on = _testView.isAccessibilityElement;
+    self.labelTextField.text = _testView.accessibilityLabel;
+    self.hintTextField.text = _testView.accessibilityHint;
+    self.modalViewSwitch.on = _testView.accessibilityViewIsModal;
+}
+
+- (UIView *)testView
+{
     return _testView;
 }
 
-- (void)setTestView:(UIView *)testView {
+- (void)setTestView:(UIView *)testView
+{
     _testView = testView;
-    self.elementSwitch.on = testView.isAccessibilityElement;
-    self.labelTextField.text = testView.accessibilityLabel;
-    self.hintTextField.text = testView.accessibilityHint;
+    [self updateAccessibilitySettingsFromTestView];
 }
 
 @end
