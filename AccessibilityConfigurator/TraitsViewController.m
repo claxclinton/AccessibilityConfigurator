@@ -38,7 +38,7 @@ enum kTraitsCellPosition {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Traits", @"Traits");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        self.tabBarItem.image = [UIImage imageNamed:@"traits"];
     }
     return self;
 }

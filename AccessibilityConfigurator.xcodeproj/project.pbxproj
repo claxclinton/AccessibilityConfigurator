@@ -21,14 +21,16 @@
 		4B88B48D1742C510003ADBDB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B48C1742C510003ADBDB /* Default@2x.png */; };
 		4B88B48F1742C510003ADBDB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B48E1742C510003ADBDB /* Default-568h@2x.png */; };
 		4B88B4921742C510003ADBDB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4911742C510003ADBDB /* TestViewController.m */; };
-		4B88B4941742C510003ADBDB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4931742C510003ADBDB /* first.png */; };
-		4B88B4961742C510003ADBDB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4951742C510003ADBDB /* first@2x.png */; };
+		4B88B4941742C510003ADBDB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4931742C510003ADBDB /* test.png */; };
+		4B88B4961742C510003ADBDB /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4951742C510003ADBDB /* test@2x.png */; };
 		4B88B4991742C510003ADBDB /* TraitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88B4981742C510003ADBDB /* TraitsViewController.m */; };
-		4B88B49B1742C510003ADBDB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49A1742C510003ADBDB /* second.png */; };
-		4B88B49D1742C510003ADBDB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49C1742C510003ADBDB /* second@2x.png */; };
+		4B88B49B1742C510003ADBDB /* traits.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49A1742C510003ADBDB /* traits.png */; };
+		4B88B49D1742C510003ADBDB /* traits@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49C1742C510003ADBDB /* traits@2x.png */; };
 		4B88B4A01742C510003ADBDB /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B49E1742C510003ADBDB /* TestViewController.xib */; };
 		4B88B4A31742C510003ADBDB /* TraitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B88B4A11742C510003ADBDB /* TraitsViewController.xib */; };
 		4B8AC9D01742D23E006DDB9E /* TraitTableViewCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */; };
+		4BF501A3174C152D005116FE /* accessibility@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF501A1174C152D005116FE /* accessibility@2x.png */; };
+		4BF501A4174C152D005116FE /* accessibility.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF501A2174C152D005116FE /* accessibility.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,15 +56,17 @@
 		4B88B48E1742C510003ADBDB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4B88B4901742C510003ADBDB /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		4B88B4911742C510003ADBDB /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		4B88B4931742C510003ADBDB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		4B88B4951742C510003ADBDB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4B88B4931742C510003ADBDB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		4B88B4951742C510003ADBDB /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
 		4B88B4971742C510003ADBDB /* TraitsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraitsViewController.h; sourceTree = "<group>"; };
 		4B88B4981742C510003ADBDB /* TraitsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraitsViewController.m; sourceTree = "<group>"; };
-		4B88B49A1742C510003ADBDB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		4B88B49C1742C510003ADBDB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4B88B49A1742C510003ADBDB /* traits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = traits.png; sourceTree = "<group>"; };
+		4B88B49C1742C510003ADBDB /* traits@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "traits@2x.png"; sourceTree = "<group>"; };
 		4B88B49F1742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
 		4B88B4A21742C510003ADBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TraitsViewController.xib; sourceTree = "<group>"; };
 		4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraitTableViewCellView.xib; sourceTree = "<group>"; };
+		4BF501A1174C152D005116FE /* accessibility@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accessibility@2x.png"; sourceTree = "<group>"; };
+		4BF501A2174C152D005116FE /* accessibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accessibility.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		4B88B46C1742C50F003ADBDB = {
 			isa = PBXGroup;
 			children = (
+				4BF501A0174C1516005116FE /* Images */,
 				4B88B47E1742C510003ADBDB /* AccessibilityConfigurator */,
 				4B88B4771742C510003ADBDB /* Frameworks */,
 				4B88B4761742C510003ADBDB /* Products */,
@@ -116,19 +121,15 @@
 				4B88B49E1742C510003ADBDB /* TestViewController.xib */,
 				4B7C493C174C02AD00F34661 /* TestContainerView.h */,
 				4B7C493D174C02AD00F34661 /* TestContainerView.m */,
-				4B88B4931742C510003ADBDB /* first.png */,
-				4B88B4951742C510003ADBDB /* first@2x.png */,
+				4B5F9C1C17457EC40043CD2B /* AccessibilityViewController.h */,
+				4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */,
+				4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */,
 				4B88B4971742C510003ADBDB /* TraitsViewController.h */,
 				4B88B4981742C510003ADBDB /* TraitsViewController.m */,
 				4B88B4A11742C510003ADBDB /* TraitsViewController.xib */,
 				4B8AC9CF1742D23E006DDB9E /* TraitTableViewCellView.xib */,
 				4B337C891742C88500453309 /* TraitsTableViewCell.h */,
 				4B337C8A1742C88500453309 /* TraitsTableViewCell.m */,
-				4B5F9C1C17457EC40043CD2B /* AccessibilityViewController.h */,
-				4B5F9C1D17457EC40043CD2B /* AccessibilityViewController.m */,
-				4B5F9C1E17457EC40043CD2B /* AccessibilityViewController.xib */,
-				4B88B49A1742C510003ADBDB /* second.png */,
-				4B88B49C1742C510003ADBDB /* second@2x.png */,
 				4B88B47F1742C510003ADBDB /* Supporting Files */,
 			);
 			path = AccessibilityConfigurator;
@@ -146,6 +147,20 @@
 				4B88B48E1742C510003ADBDB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BF501A0174C1516005116FE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4BF501A1174C152D005116FE /* accessibility@2x.png */,
+				4BF501A2174C152D005116FE /* accessibility.png */,
+				4B88B4931742C510003ADBDB /* test.png */,
+				4B88B4951742C510003ADBDB /* test@2x.png */,
+				4B88B49A1742C510003ADBDB /* traits.png */,
+				4B88B49C1742C510003ADBDB /* traits@2x.png */,
+			);
+			name = Images;
+			path = AccessibilityConfigurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,14 +218,16 @@
 				4B88B48B1742C510003ADBDB /* Default.png in Resources */,
 				4B88B48D1742C510003ADBDB /* Default@2x.png in Resources */,
 				4B88B48F1742C510003ADBDB /* Default-568h@2x.png in Resources */,
-				4B88B4941742C510003ADBDB /* first.png in Resources */,
-				4B88B4961742C510003ADBDB /* first@2x.png in Resources */,
-				4B88B49B1742C510003ADBDB /* second.png in Resources */,
-				4B88B49D1742C510003ADBDB /* second@2x.png in Resources */,
+				4B88B4941742C510003ADBDB /* test.png in Resources */,
+				4B88B4961742C510003ADBDB /* test@2x.png in Resources */,
+				4B88B49B1742C510003ADBDB /* traits.png in Resources */,
+				4B88B49D1742C510003ADBDB /* traits@2x.png in Resources */,
 				4B88B4A01742C510003ADBDB /* TestViewController.xib in Resources */,
 				4B88B4A31742C510003ADBDB /* TraitsViewController.xib in Resources */,
 				4B8AC9D01742D23E006DDB9E /* TraitTableViewCellView.xib in Resources */,
 				4B5F9C2017457EC40043CD2B /* AccessibilityViewController.xib in Resources */,
+				4BF501A3174C152D005116FE /* accessibility@2x.png in Resources */,
+				4BF501A4174C152D005116FE /* accessibility.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
